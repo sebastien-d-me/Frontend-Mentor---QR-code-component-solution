@@ -1,0 +1,57 @@
+/* Base */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #d6e2f0;
+}
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+/* Main */
+main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: auto 20px;
+}
+
+/* Card */
+.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px #7b879d;
+  padding: 16px;
+  text-align: center;
+  width: 320px;
+}
+.card > img {
+  border-radius: 10px;
+  width: 100%;
+}
+.card > h1 {
+  color: #1f3251;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 10px 0 16px 0;
+}
+.card > p {
+  color: #7b879d;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
